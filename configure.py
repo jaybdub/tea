@@ -7,7 +7,8 @@ with ninja:
         'examples/basic/main',
         srcs=[
             'examples/basic/main.cpp'
-        ]
+        ],
+        include_dirs=['.']
     )
 
 ninja.save()
